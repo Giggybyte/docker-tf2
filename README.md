@@ -24,8 +24,11 @@ the container (i.e. you won't lose everything when you kill the container). Feel
 free to drop this option if you want a "temporary" server of sorts that'll be
 long forgotten after you kill the docker process.
 
-The server will uses the settings that are laid out in `server.cfg` and 
+The server will use the settings that are laid out in `server.cfg` and 
 `tf2_ds.txt`; feel free to change these to your liking.
+
+If it's your first time running the server, you'll need to wait as about 8GB 
+of content is downloaded.
 
 ## Future
 - Automatically install SourceMod
