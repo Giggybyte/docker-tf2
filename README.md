@@ -7,7 +7,7 @@ don't have to worry about immediately segfaulting with an empty debug log like
 I was on Arch Linux. No hassle, just clone the repo, run the commands, and
 you're done.
 
-# Usage
+## Usage
 Running this is done pretty similarly to how you'd run just about anything else
 in Docker.
 Build it first:
@@ -27,7 +27,7 @@ long forgotten after you kill the docker process.
 The server will uses the settings that are laid out in `server.cfg` and 
 `tf2_ds.txt`; feel free to change these to your liking.
 
-# Future
+## Future
 - Automatically install SourceMod
 - Consider not running as root within the container...
     - ...but the threat model seems pretty low. If the container gets pwned,
