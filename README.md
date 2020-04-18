@@ -32,11 +32,4 @@ of content is downloaded.
 
 ## Future
 - Automatically install SourceMod
-- Consider not running as root within the container...
-    - ...but the threat model seems pretty low. If the container gets pwned,
-      all someone would have access to is the container, i.e. the tf2 server,
-      and that would already be compromised under a separate user. I guess 
-      running as root means access to the rest of the container, but it's just a
-      debian image you can quickly pull from Docker, so /shrug?
-    - The only reason I didn't really do so from the start was laziness; I was
-      in a hurry to get a working product.
+
